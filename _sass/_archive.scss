@@ -48,6 +48,17 @@
   }
 }
 
+.publication__item-title {
+  font-size: $type-size-5;
+  font-weight: normal;
+}
+
+.archive__item:hover {
+  .publication__item-title {
+    text-decoration: none;
+  }
+}
+
 /* remove border*/
 .page__content {
 

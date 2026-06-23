@@ -5,12 +5,8 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.orcid %}
-  <div class="wordwrap">You can also find my publication record on <a href="{{ site.author.orcid }}">ORCID</a>.</div>
-{% endif %}
-
 {% include base_path %}
 
 {% for post in site.publications reversed %}
-  {% include archive-single.html %}
+  {% include publication-single.html %}
 {% endfor %}
