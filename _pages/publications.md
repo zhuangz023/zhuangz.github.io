@@ -5,8 +5,8 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{https://orcid.org/0000-0002-7413-7574}}">my ORCID</a>.</div>
+{% if site.author.orcid %}
+  <div class="wordwrap">You can also find my publication record on <a href="{{ site.author.orcid }}">ORCID</a>.</div>
 {% endif %}
 
 {% include base_path %}

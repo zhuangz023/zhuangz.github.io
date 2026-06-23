@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: ""
+title: "CV"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -22,7 +22,5 @@ Skills
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+A complete and maintained publication list is available on the [Publications](/publications/) page.
   
