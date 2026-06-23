@@ -8,13 +8,7 @@
 
 <div class="list__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    <h3 class="archive__item-title publication__item-title" itemprop="headline">
-      {% if post.paperurl %}
-        <a href="{{ post.paperurl }}">{{ title }}</a>
-      {% else %}
-        {{ title }}
-      {% endif %}
-    </h3>
+    <h3 class="archive__item-title publication__item-title" itemprop="headline">{% if post.paperurl %}<a href="{{ post.paperurl }}">{{ title }}</a>{% else %}{{ title }}{% endif %}</h3>
 
     {% if post.venue %}
       <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
